@@ -8,7 +8,7 @@ import { PageBooks } from "./subPages/PageBooks.jsx";
 function App() {
   return (
     <div className="App">
-      <h1>Info Site</h1>
+      <h1 className="mainTitle">Info Site</h1>
       <Navbar />
       <Routes>
         <Route path="/PageWelcome" element={<PageWelcome />} />
