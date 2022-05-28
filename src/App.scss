@@ -34,30 +34,45 @@ body{
       }
     }
   }
-  div.bookBox{
-    display:flex;
-    width: 500px;
-    margin-bottom: 20px;
-    background-color: #222222;
-    padding: 10px;
-    .imageSide{
-      img{
-        height:160px
+  .pageBooks{
+    .spinner{
+      color:#aaa;
+      font-size:4rem;
+      animation: spin infinite 2s linear;
+    }
+    @keyframes spin{
+      from{
+        transform: rotate(0deg);
+      }
+      to{
+        transform:rotate(360deg);
       }
     }
-    .infoSide{
-      padding-left: 10px;;
-      h4{
-        color:#cb9f4c;
-        font-size:1.3rem;
-        margin-top: 0;
-        margin-bottom: 10px;
+    div.bookBox{
+      display:flex;
+      width: 500px;
+      margin-bottom: 20px;
+      background-color: #222222;
+      padding: 10px;
+      .imageSide{
+        img{
+          height:160px
+        }
       }
-      p{
-        font-style: italic;
-        font-size: 1rem;
-        line-height: 25px;
-        text-align: justify;
+      .infoSide{
+        padding-left: 10px;;
+        h4{
+          color:#cb9f4c;
+          font-size:1.3rem;
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+        p{
+          font-style: italic;
+          font-size: 1rem;
+          line-height: 25px;
+          text-align: justify;
+        }
       }
     }
   }
