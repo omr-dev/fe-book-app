@@ -3,4 +3,35 @@ body{
   color:#ccc;
   padding: 20px;
   box-sizing: border-box;
+  h1.mainTitle{
+    font-size:2.5rem;
+  }
+  div.navbar{
+    padding:10px 0;
+    ul{
+      list-style-type: none;
+      display:flex;
+      padding-left: 0;
+      margin-left:0 ;
+      
+      li{
+        margin-right:20px;
+        a{
+          font-size: 2rem;
+          text-decoration: none;
+          color:#ccc;
+          padding: 10px;
+          padding-left: 0;
+          &:hover{
+            color:#333;
+            background-color: #ccc;
+          }
+          
+        }
+        a.active{
+          color:yellow;
+        }
+      }
+    }
+  }
 }
