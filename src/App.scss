@@ -3,4 +3,30 @@ body{
   color:#ccc;
   padding: 20px;
   box-sizing: border-box;
+  div.navbar{
+    ul{
+      list-style-type: none;
+      display:flex;
+      padding-left: 0;
+      margin-left:0 ;
+      
+      li{
+        margin-right:20px;
+        a{
+          text-decoration: none;
+          color:#ccc;
+          padding: 10px;
+          padding-left: 0;
+          &:hover{
+            color:#333;
+            background-color: #ccc;
+          }
+          
+        }
+        a.active{
+          color:yellow;
+        }
+      }
+    }
+  }
 }
