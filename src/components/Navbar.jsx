@@ -5,10 +5,12 @@ export const Navbar = () => {
       <nav>
         <ul>
           <li>
+
             <NavLink to="welcome">Welcome</NavLink>
           </li>
           <li>
             <NavLink to="books">Books</NavLink>
+
           </li>
         </ul>
       </nav>

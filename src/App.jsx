@@ -11,9 +11,11 @@ function App() {
       <h1 className="mainTitle">Info Site</h1>
       <Navbar />
       <Routes>
+
         <Route path="/welcome" element={<PageWelcome />} />
         <Route path="/books" element={<PageBooks />} />
         <Route path="/" element={<Navigate to="welcome" replace />} />
+
       </Routes>
     </div>
   );
